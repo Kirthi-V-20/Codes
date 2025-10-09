@@ -1,0 +1,26 @@
+mode: set
+basic_code/abbreviation.go:8.34,11.29 3 1
+basic_code/abbreviation.go:11.29,12.54 1 1
+basic_code/abbreviation.go:12.54,14.4 1 1
+basic_code/abbreviation.go:16.2,16.28 1 1
+basic_code/fizzbuzz.go:5.31,7.26 2 1
+basic_code/fizzbuzz.go:7.26,8.16 1 1
+basic_code/fizzbuzz.go:8.16,10.4 1 1
+basic_code/fizzbuzz.go:10.9,10.22 1 1
+basic_code/fizzbuzz.go:10.22,12.4 1 1
+basic_code/fizzbuzz.go:12.9,12.22 1 1
+basic_code/fizzbuzz.go:12.22,14.4 1 1
+basic_code/fizzbuzz.go:14.9,16.4 1 1
+basic_code/fizzbuzz.go:18.2,18.11 1 1
+basic_code/frequency.go:3.41,6.30 2 1
+basic_code/frequency.go:6.30,9.3 2 1
+basic_code/frequency.go:11.2,11.13 1 1
+basic_code/main.go:5.13,11.2 5 0
+basic_code/palindrome.go:5.31,7.35 2 1
+basic_code/palindrome.go:7.35,10.3 2 1
+basic_code/palindrome.go:11.2,11.21 1 1
+basic_code/palindrome.go:14.32,18.2 2 1
+basic_code/pangram.go:5.31,9.34 3 1
+basic_code/pangram.go:9.34,10.45 1 1
+basic_code/pangram.go:10.45,12.4 1 1
+basic_code/pangram.go:15.2,15.18 1 1
