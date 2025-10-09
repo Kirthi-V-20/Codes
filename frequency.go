@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func Frequency(s string) map[string]int {
 	freq := map[string]int{}
 
@@ -11,9 +9,4 @@ func Frequency(s string) map[string]int {
 	}
 
 	return freq
-}
-
-func main() {
-	fmt.Println(Frequency("apple"))
-
 }

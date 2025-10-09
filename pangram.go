@@ -2,7 +2,7 @@ package main
 
 import "strings"
 
-func Panagram(s string) string {
+func Pangram(s string) string {
 	s = strings.ToLower(s)
 	alpha := "abcdefghijklmnopqrstuvwxyz"
 
