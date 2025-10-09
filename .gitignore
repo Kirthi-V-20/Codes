@@ -1,1 +1,10 @@
-coverage.out
+# Ignore everything
+*
+# But keep .go files
+!*.go
+!*.out
+!*.mod
+.github/
+!.github/workflows/go-tests.yml
+# Also keep .gitignore itself
+!.gitignore
