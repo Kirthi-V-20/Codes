@@ -14,7 +14,6 @@ func Frequency(s string) map[string]int {
 }
 
 func main() {
-	result := Frequency("kiruthika")
-	fmt.Println(result)
+	fmt.Println(Frequency("apple"))
 
 }

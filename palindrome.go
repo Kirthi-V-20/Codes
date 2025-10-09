@@ -1,20 +1,18 @@
 package main
 
-import "fmt"
+import "strings"
 
-func palindrome(s string) {
-
-	rev := ""
+func reverse(s string) string {
+	var rev strings.Builder
 	for i := len(s) - 1; i >= 0; i-- {
-		rev += string(s[i])
+		word := string(s[i])
+		rev.WriteString(word)
 	}
-	if s == rev {
-		fmt.Println("True")
-	} else {
-		fmt.Println("False")
-	}
+	return rev.String()
 }
 
-func main() {
-	palindrome("level")
+func palindrome(s string) bool {
+	rev := reverse(s)
+	return rev == s
+
 }

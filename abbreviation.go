@@ -1,23 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"strings"
+	"unicode"
+)
 
-func Abbreviate(s string) {
-	abbr := ""
-
-	if len(s) > 0 && s[0] >= 'A' && s[0] <= 'Z' {
-		abbr += string(s[0])
-	}
-
-	for i := 1; i < len(s); i++ {
-		if s[i-1] == ' ' && s[i] >= 'A' && s[i] <= 'Z' {
-			abbr += string(s[i])
+func Abbreviate(s string) string {
+	words := strings.Split(s, " ")
+	var abbreviate strings.Builder
+	for _, word := range words {
+		if len(word) > 0 && unicode.IsUpper(rune(word[0])) {
+			abbreviate.WriteByte(word[0])
 		}
 	}
-
-	fmt.Println(abbr)
-}
-
-func main() {
-	Abbreviate("Indian Institute of Management")
+	return abbreviate.String()
 }
